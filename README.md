@@ -37,6 +37,8 @@
 >> Your show includeds **ACT 1** and **ACT 2**, these acts share *props* with **ACT 7**, **ACT 14** and **ACT 22**
 >> Do you want to include this act YES/NO
 
+
+
 #### Basic functionality
 - Take a list of acts and output a packing list of props.
 - Each item on the list will need to have two states, packed and not packed.
@@ -52,7 +54,10 @@
 
 
 
-
+# The Tech Stack I intend to use
+- I plan on using .Net Core for the backend with an MVC design pattern
+- The view layer will be created using VUE
+- The Data layer will either postgres or google Firebase.
 
 
 
