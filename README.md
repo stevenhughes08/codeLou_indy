@@ -1,65 +1,84 @@
-# SUITCASE: An app for organizing stage props
+# SUITCASE OVERVIEW
+> An app for organizing stage props to make my life easier. I am the primary intended audience and the members of the acting troupe that I am a member of. SUITCASE will take a list of theatrical ACTS that will have sublist of Props. Each prop will have five properties.
 
-## What are the goals of the App?
+> > > **Optional Add on**. If a list of acts includes props the propgram can auto suggest a an act if the props are being packed. 
+
+## FEATURES:
+
+> **Admin Panel**
+> > All CRUD functions are created from the ADMIN Panel. The admin panel is password protected. Admin can enter shows, ACTS, props and Performers
 
 
-### Core functionality
-
-
-#### Input
-- Site will need an admin screen
-  - Admin screen will be able to enter accept and delete data in the database. 
-  - Admin will be able to CRUD Acts and props
-    - Each Act will *contain* a list of props
+>**Shows**
+ - Contains a list of ACTS
+   - ID
+   - Title
+   - ACTS
   
+>**ACTS**
+- Contains a list of Props
+    - ID
+    - Title
+    - Props
   
-#### Output
-- APP will output a list of acts and props
-- If props are included in multiple acts they will need to have an * next to them.
-- Act will need to be maintained in a `list`
-- Props will be in a sub list
-- Once acts are added to the new list, props will be added as well.
+>**Props**
+- ID
+- Name
+- location
+- status: packed or unpacked
+- Acts used in
 
-> Output should look like this
->> ACT 1
-    - prop
-    - prop 
-    - prop 
-    - prop
+>**Performer**
+- ID
+- Character Name
+- List of ACTS
 
->> ACT 2
-    - prop 
-    - prop
-    - prop
-    - prop
-    - prop
+>**Output**
+> Two views
+> >**Set list:** shows a list of acts and performers in each act. This is printable. 
+- Show Title
+  - ACT
+    - Performer1 
+    - Performer2
+    - performer3
+    - performer4
   
->> Your show includeds **ACT 1** and **ACT 2**, these acts share *props* with **ACT 7**, **ACT 14** and **ACT 22**
->> Do you want to include this act YES/NO
+> >**Packing List:** A list of acts and props.
+- Shows Title
+  - ACT 1
+    - Prop 
+    - Prop 
+    - Prop
+  - ACT 2
+    - Prop
+    - Prop
+    - Prop
+    - Prop
+
+## TECHNICAL SUMMARY
+- *** Backend: C# *** 
+- *** FRAMEWORK: ASP.Net Core *** 
+- *** FRONTEND: VUE/Bootstrap ***
+- **DATABASE: SQL POSTGRES**
+- **ORM: EF CORE**
+- **SERVER: IIS**
 
 
 
-#### Basic functionality
-- Take a list of acts and output a packing list of props.
-- Each item on the list will need to have two states, packed and not packed.
-- The user will need to be able to click the item to change the state from not packed to packed. 
 
+## Milestones
 
+- [x] Create a GitHub Repo and Start on a Project Plan
 
+- [ ] Scaffold a new .NET Core MVC Application
 
-#### Fun Functionality
-- Examine all props on the packing list: `if` all props included are listed in another act `then` suggest act to be included. 
+- [ ] Model Relational [Example Project] Data
 
->>The following props are `print list` are included in `print act`. `Click here` to add this act to the packing list.
+- [ ] Generating a Code First Database
 
+- [ ] Creating CRUD Controllers
 
-
-# The Tech Stack I intend to use
-- I plan on using .Net Core for the backend with an MVC design pattern
-- The view layer will be created using VUE
-- The Data layer will either postgres or google Firebase.
-
-
+- [ ] Creating CRUD Views
 
 
 
