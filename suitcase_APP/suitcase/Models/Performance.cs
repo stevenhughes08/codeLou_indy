@@ -2,6 +2,9 @@ using System;
 using System.Collections.Generic;
 namespace suitcase.Models
 {
+    ///<summary>
+    /// This class has a one to many relationship with Acts
+    ///</summary>
     public class Performance : BaseEntity
     {
         /// <summary>

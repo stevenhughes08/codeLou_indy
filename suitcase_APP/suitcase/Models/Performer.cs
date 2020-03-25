@@ -5,13 +5,13 @@ namespace suitcase.Models
     public class Performer : BaseEntity
     {
     /// <summary> 
-    /// This will have a one to many relationship with Acts
+    /// This will have a many to many relationship with Acts
     /// </summary>
     public Guid PerformerId { get; set; }
-    public string Name { get; set; }
+    public string PerformerName { get; set; }
     public string HeadShotUrl { get; set; }
 
-    public ICollection<Act> PerformerAct { get; set; }
+    public ICollection<ActPerformer> ActPerformer { get; set; }
     }
     
     

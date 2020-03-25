@@ -5,15 +5,16 @@ namespace suitcase.Models
     
     public class Act : BaseEntity
     {
-        /// <summary>
-        /// This is a one to many relationship with Props and Actors
         ///<summary>
+        /// Many to many relationship with performers
+        ///</summary>
+
         public string ActName { get; set; }
-        public Performance ActPerformance { get; set; }
         public Guid PerformanceId { get; set; }
+        public Performance Performances { get; set; }
         public Music Music { get; set; }
-        public ICollection<Performer> ActPerformer { get; set; }
-        public ICollection<Prop> ActProp { get; set; }
+        public ICollection<ActPerformer> ActPerformers { get; set; }
+        public ICollection<ActProp> ActProps { get; set; }
         
     }
 
