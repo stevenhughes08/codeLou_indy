@@ -1,5 +1,6 @@
 using System;
-public class Music{
+public class Music : BaseEntity
+{
     /// <summary>
     /// Music will have a one to one relationship with Act one act, one song
     /// </summary>

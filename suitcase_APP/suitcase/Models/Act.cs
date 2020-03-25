@@ -8,11 +8,12 @@ namespace suitcase.Models
         /// <summary>
         /// This is a one to many relationship with Props and Actors
         ///<summary>
-        public Guid ActId { get; set; }
         public string ActName { get; set; }
+        public Performance ActPerformance { get; set; }
+        public Guid PerformanceId { get; set; }
         public Music Music { get; set; }
-        public ICollection<Actor> Actors { get; set; }
-        public ICollection<Prop> Props { get; set; }
+        public ICollection<Performer> ActPerformer { get; set; }
+        public ICollection<Prop> ActProp { get; set; }
         
     }
 

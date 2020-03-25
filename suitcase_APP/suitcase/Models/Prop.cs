@@ -11,9 +11,6 @@ namespace suitcase.Models
         public string PropName { get; set; }
         public string Description { get; set; } 
         public string StorageLocation { get; set; }
-
-        public bool IsPacked { get; set; }
-
-        public Act Acts { get; set; }
+        public ICollection<ActProp> ActProps { get; set; }
     }
 }
