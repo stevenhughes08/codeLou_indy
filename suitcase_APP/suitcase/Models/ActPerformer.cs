@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace suitcase.Models
 {
@@ -6,10 +7,12 @@ namespace suitcase.Models
     /// This is a bridge class for a many to many relationship 
     ///</summary>
     public class ActPerformer {
-        public Guid PerformerId { get; set; }
-        public string Performer { get; set; }
-        public Guid ActId { get; set;}
-        public string Act { get; set; }
+      public Guid PerformerId { get; set; }
+        [ForeignKey("PerformerId")]
+        public Performer Performer { get; set; }
+        public Guid ActId { get; set; }
+        [ForeignKey("ActId")]
+        public Act Act { get; set; }
 
     }
 }
