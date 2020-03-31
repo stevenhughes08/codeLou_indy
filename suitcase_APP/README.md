@@ -1,0 +1,2 @@
+## Welcome to the Suitcase App 
+> Suitcase is an app built for Independant Stage production companies, acting troupes and anyone who needs to schlep a bunch of heavy stuff across town for a creative process. Welcome To Suitcase. Let's have a peek inside. 
