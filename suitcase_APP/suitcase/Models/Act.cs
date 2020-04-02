@@ -9,7 +9,9 @@ namespace suitcase.Models
         /// Many to many relationship with performers
         ///</summary>
         public Guid PerformanceId { get; set; }
+        [Required]
         public Performance Performance { get; set; }
+        [Required]
         public ICollection<ActPerformer> ActPerformers { get; set; }
         public ICollection<ActProp> ActProps { get; set; }
         

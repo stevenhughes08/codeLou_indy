@@ -9,6 +9,7 @@ namespace suitcase.Models
         /// This is a one to many relationship with Acts
         /// <summary>
         public string StorageLocation { get; set; }
+        [Required]
         public ICollection<ActProp> ActProps { get; set; }
     }
 }
