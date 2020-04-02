@@ -10,10 +10,10 @@ public class Context : DbContext
             modelBuilder.Entity<ActPerformer>().HasKey(t => new { t.PerformerId, t.ActId });
             modelBuilder.Entity<ActProp>().HasKey(t => new { t.PropId, t.ActId });
         }
-    DbSet<Act> Acts {get; set; }
-    DbSet<Performance> Performances {get; set;}
-    DbSet<Performer> Performers { get; set; }
-    DbSet<Prop> Props { get; set; }
+    public DbSet<Act> Acts {get; set; }
+    public DbSet<Performance> Performances {get; set;}
+    public DbSet<Performer> Performers { get; set; }
+    public DbSet<Prop> Props { get; set; }
 }
 
 }
