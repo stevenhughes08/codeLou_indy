@@ -14,6 +14,7 @@ public class Context : DbContext
     public DbSet<Performance> Performances {get; set;}
     public DbSet<Performer> Performers { get; set; }
     public DbSet<Prop> Props { get; set; }
+    
 }
 
 }
