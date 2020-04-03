@@ -20521,18 +20521,8 @@
   "RootNamespace": "suitcase",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\srhug\\source\\repos\\codeLou_indy\\codeLou_indy\\suitcase_APP\\suitcase\\Views\\ActProp\\Details.cshtml",
-      "TargetPath": "Views\\ActProp\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\srhug\\source\\repos\\codeLou_indy\\codeLou_indy\\suitcase_APP\\suitcase\\Views\\Prop\\Delete.cshtml",
       "TargetPath": "Views\\Prop\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\srhug\\source\\repos\\codeLou_indy\\codeLou_indy\\suitcase_APP\\suitcase\\Views\\BaseNamedEntity\\Details.cshtml",
-      "TargetPath": "Views\\BaseNamedEntity\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20556,8 +20546,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\srhug\\source\\repos\\codeLou_indy\\codeLou_indy\\suitcase_APP\\suitcase\\Views\\BaseNamedEntity\\Delete.cshtml",
-      "TargetPath": "Views\\BaseNamedEntity\\Delete.cshtml",
+      "FilePath": "c:\\Users\\srhug\\source\\repos\\codeLou_indy\\codeLou_indy\\suitcase_APP\\suitcase\\Views\\Home\\Admin.cshtml",
+      "TargetPath": "Views\\Home\\Admin.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20566,23 +20556,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\srhug\\source\\repos\\codeLou_indy\\codeLou_indy\\suitcase_APP\\suitcase\\Views\\BaseNamedEntity\\Index.cshtml",
-      "TargetPath": "Views\\BaseNamedEntity\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\srhug\\source\\repos\\codeLou_indy\\codeLou_indy\\suitcase_APP\\suitcase\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\srhug\\source\\repos\\codeLou_indy\\codeLou_indy\\suitcase_APP\\suitcase\\Views\\BaseNamedEntity\\Create.cshtml",
-      "TargetPath": "Views\\BaseNamedEntity\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\srhug\\source\\repos\\codeLou_indy\\codeLou_indy\\suitcase_APP\\suitcase\\Views\\ActProp\\Create.cshtml",
-      "TargetPath": "Views\\ActProp\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20616,11 +20591,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\srhug\\source\\repos\\codeLou_indy\\codeLou_indy\\suitcase_APP\\suitcase\\Views\\ActProp\\Delete.cshtml",
-      "TargetPath": "Views\\ActProp\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\srhug\\source\\repos\\codeLou_indy\\codeLou_indy\\suitcase_APP\\suitcase\\Views\\Prop\\Edit.cshtml",
       "TargetPath": "Views\\Prop\\Edit.cshtml",
       "FileKind": "mvc"
@@ -20628,11 +20598,6 @@
     {
       "FilePath": "c:\\Users\\srhug\\source\\repos\\codeLou_indy\\codeLou_indy\\suitcase_APP\\suitcase\\Views\\Performance\\Create.cshtml",
       "TargetPath": "Views\\Performance\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\srhug\\source\\repos\\codeLou_indy\\codeLou_indy\\suitcase_APP\\suitcase\\Views\\BaseNamedEntity\\Edit.cshtml",
-      "TargetPath": "Views\\BaseNamedEntity\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20656,18 +20621,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\srhug\\source\\repos\\codeLou_indy\\codeLou_indy\\suitcase_APP\\suitcase\\Views\\ActPerformer\\Delete.cshtml",
-      "TargetPath": "Views\\ActPerformer\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\srhug\\source\\repos\\codeLou_indy\\codeLou_indy\\suitcase_APP\\suitcase\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\srhug\\source\\repos\\codeLou_indy\\codeLou_indy\\suitcase_APP\\suitcase\\Views\\ActPerformer\\Details.cshtml",
-      "TargetPath": "Views\\ActPerformer\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20691,16 +20646,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\srhug\\source\\repos\\codeLou_indy\\codeLou_indy\\suitcase_APP\\suitcase\\Views\\ActPerformer\\Edit.cshtml",
-      "TargetPath": "Views\\ActPerformer\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\srhug\\source\\repos\\codeLou_indy\\codeLou_indy\\suitcase_APP\\suitcase\\Views\\ActPerformer\\Index.cshtml",
-      "TargetPath": "Views\\ActPerformer\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\srhug\\source\\repos\\codeLou_indy\\codeLou_indy\\suitcase_APP\\suitcase\\Views\\Performance\\Index.cshtml",
       "TargetPath": "Views\\Performance\\Index.cshtml",
       "FileKind": "mvc"
@@ -20713,21 +20658,6 @@
     {
       "FilePath": "c:\\Users\\srhug\\source\\repos\\codeLou_indy\\codeLou_indy\\suitcase_APP\\suitcase\\Views\\Performance\\Delete.cshtml",
       "TargetPath": "Views\\Performance\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\srhug\\source\\repos\\codeLou_indy\\codeLou_indy\\suitcase_APP\\suitcase\\Views\\ActPerformer\\Create.cshtml",
-      "TargetPath": "Views\\ActPerformer\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\srhug\\source\\repos\\codeLou_indy\\codeLou_indy\\suitcase_APP\\suitcase\\Views\\ActProp\\Edit.cshtml",
-      "TargetPath": "Views\\ActProp\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\srhug\\source\\repos\\codeLou_indy\\codeLou_indy\\suitcase_APP\\suitcase\\Views\\ActProp\\Index.cshtml",
-      "TargetPath": "Views\\ActProp\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],
