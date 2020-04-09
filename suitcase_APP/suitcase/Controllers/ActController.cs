@@ -20,7 +20,7 @@ namespace suitcase.Controllers
         }
 
         // GET: Act
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Acts()
         {
             var context = _context.Acts.Include(a => a.Performance);
             return View(await context.ToListAsync());
@@ -51,6 +51,13 @@ namespace suitcase.Controllers
             ViewData["PerformanceId"] = new SelectList(_context.Performances, "Id", "Id");
             return View();
         }
+
+        // public async Task<IActionResult> Index()
+        // {
+            
+        // }
+
+     
 
         // POST: Act/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 

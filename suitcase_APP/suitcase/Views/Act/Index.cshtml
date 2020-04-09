@@ -1,10 +1,10 @@
 @model IEnumerable<suitcase.Models.Act>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Acts";
 }
 
-<h1>Index</h1>
+<h1>Acts</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -13,10 +13,16 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Performance)
+                @Html.DisplayNameFor(model => model.Performance.Name)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Name)
+                @* @Html.DisplayNameFor(model => model.Act.Name) *@
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ActPerformers)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ActProps)
             </th>
             <th></th>
         </tr>
