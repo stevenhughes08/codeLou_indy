@@ -5,7 +5,9 @@ namespace suitcase.Data
 {
 public class Context : DbContext
 {
-    public Context(DbContextOptions<Context> options) : base(options) {}
+    public Context(DbContextOptions<Context> options) : base(options) {
+       
+    }
     protected override void OnModelCreating(ModelBuilder modelBuilder) {
             modelBuilder.Entity<ActPerformer>().HasKey(t => new { t.PerformerId, t.ActId });
             modelBuilder.Entity<ActProp>().HasKey(t => new { t.PropId, t.ActId });
